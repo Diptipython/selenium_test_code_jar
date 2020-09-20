@@ -13,7 +13,9 @@ import org.openqa.selenium.chrome.ChromeOptions;
  	*/
 public class App 
 {
-    		public static void main( String[] args )
+	
+	@Test
+	public static void main( String[] args )
     	{
     	System.setProperty("webdriver.chrome.driver"," usr/bin/chromedriver");
     	 ChromeOptions chromeOptions = new ChromeOptions();
